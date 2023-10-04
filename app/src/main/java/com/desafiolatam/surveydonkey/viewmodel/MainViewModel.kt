@@ -16,8 +16,8 @@ class MainViewModel : ViewModel() {
 
     private val separator = ", "
 
-    var userEmail: String? = null
-    var userSuggest: String? = null
+    private var userEmail: String? = null
+    private var userSuggest: String? = null
 
     /**
      * Guarda la primera pregunta y retorna un listado de String,

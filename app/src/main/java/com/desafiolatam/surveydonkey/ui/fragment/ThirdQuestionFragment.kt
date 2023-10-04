@@ -33,15 +33,15 @@ class ThirdQuestionFragment : Fragment() {
                 if (checked) viewModel.addThirdAnswer(answer31.text.toString())
                 else viewModel.removeThirdAnswer(answer31.text.toString())
             }
-            this!!.answer32.setOnCheckedChangeListener { _, checked ->
+            this.answer32.setOnCheckedChangeListener { _, checked ->
                 if (checked) viewModel.addThirdAnswer(answer32.text.toString())
                 else viewModel.removeThirdAnswer(answer32.text.toString())
             }
-            this!!.answer33.setOnCheckedChangeListener { _, checked ->
+            this.answer33.setOnCheckedChangeListener { _, checked ->
                 if (checked) viewModel.addThirdAnswer(answer33.text.toString())
                 else viewModel.removeThirdAnswer(answer33.text.toString())
             }
-            this!!.answer34.setOnCheckedChangeListener { _, checked ->
+            this.answer34.setOnCheckedChangeListener { _, checked ->
                 if (checked) viewModel.addThirdAnswer(answer34.text.toString())
                 else viewModel.removeThirdAnswer(answer34.text.toString())
             }

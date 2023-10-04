@@ -29,5 +29,6 @@ class EndFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         binding.tvFirstAnswer.text = viewModel.getFirstResult()
         binding.tvSecondAnswer.text = viewModel.getSecondResult()
+        binding.tvThirdQuestion.text = viewModel.getThirdResult()
     }
 }

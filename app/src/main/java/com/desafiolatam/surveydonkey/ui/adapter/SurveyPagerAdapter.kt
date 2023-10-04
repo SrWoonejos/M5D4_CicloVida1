@@ -5,8 +5,10 @@ import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import com.desafiolatam.surveydonkey.ui.fragment.EndFragment
 import com.desafiolatam.surveydonkey.ui.fragment.FirstQuestionFragment
+import com.desafiolatam.surveydonkey.ui.fragment.FourthQuestionFragment
 import com.desafiolatam.surveydonkey.ui.fragment.SecondQuestionFragment
 import com.desafiolatam.surveydonkey.ui.fragment.StartFragment
+import com.desafiolatam.surveydonkey.ui.fragment.ThirdQuestionFragment
 
 class SurveyPagerAdapter(fm: FragmentActivity) : FragmentStateAdapter(fm) {
 
