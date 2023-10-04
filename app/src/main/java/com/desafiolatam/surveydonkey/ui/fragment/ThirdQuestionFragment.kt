@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import com.desafiolatam.surveydonkey.viewmodel.MainViewModel
 import com.desafiolatam.surveydonkey.databinding.FragmentFristQuestionBinding
+import com.desafiolatam.surveydonkey.databinding.FragmentThirdQuestionBinding
 
 class ThirdQuestionFragment : Fragment() {
 
@@ -52,11 +53,3 @@ class ThirdQuestionFragment : Fragment() {
     }
 }
 
-class FragmentThirdQuestionBinding {
-    companion object {
-        fun inflate(inflater: LayoutInflater, container: ViewGroup?, b: Boolean): FragmentThirdQuestionBinding? {
-
-        }
-    }
-
-}
