@@ -6,4 +6,6 @@
     <string name="end_results">Resultados</string>
     <string name="user_suggest">Sugerencias:</string>
     <string name="user_email">Email:</string>
+    <string name="q4_suggestions">Sugerencias</string>
+    <string name="q3_favorite_material_band">¿Cuál es tu color de tu correa?</string>
 </resources>
