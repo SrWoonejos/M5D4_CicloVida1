@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SurveyDonkey</string>
+    <string name="start">start</string>
+    <string name="q1_favorite_color">¿Cuál es tu color favorito?</string>
+    <string name="q2_favorite_material">¿Cuál es tu material favorito?</string>
+    <string name="end_results">Resultados</string>
+    <string name="user_suggest">Sugerencias:</string>
+    <string name="user_email">Email:</string>
+</resources>
